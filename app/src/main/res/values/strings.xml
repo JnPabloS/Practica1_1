@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Practica_1</string>
+    <string name="form">Formulario</string>
+    <string name="required_field">* Campo requerido</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="rep_password">Repita la contraseña</string>
+    <string name="save">GUARDAR</string>
+    <string name="info">Información del usuario:</string>
+    <string name="password_error">Las contraseñas no coinciden</string>
+    <string name="data_error">Faltan campos por rellenar</string>
+    <string name="genre">Género:</string>
+    <string name="female">Femenino</string>
+    <string name="male">Masculino</string>
+    <string name="hobbies">Pasatiempos:</string>
+    <string name="sport">Deporte</string>
+    <string name="read">Leer</string>
+    <string name="eat">Comer</string>
+    <string name="dance">Bailar</string>
+    <string name="name">Nombre</string>
+    <string name="pick_date">Seleccionar fecha de nacimiento</string>
+    <string name="city">Lugar de nacimiento:</string>
+    <string name="date_of_bird">Fecha de nacimiento:</string>
+</resources>
