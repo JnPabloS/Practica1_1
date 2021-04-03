@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             hobbies += if (mainBinding.readCheckBox.isChecked) getString(R.string.read) + SPACE else EMPTY
             hobbies += if (mainBinding.sportCheckBox.isChecked) getString(R.string.sport) + SPACE else EMPTY
 
-            if (email.isNotEmpty() && namee.isNotEmpty() && fechaNacimiento.isNotEmpty()) {
+            if (email.isNotEmpty() && namee.isNotEmpty() && fechaNacimiento.isNotEmpty() && password.isNotEmpty() && repPassword.isNotEmpty() && city.isNotEmpty()) {
                 if (password == repPassword) {
 
                     saveUser(namee, email, password, genre, hobbies, city, fechaNacimiento)
@@ -99,9 +99,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun printUserData() {
-        var info = ""
+        var info = getString(R.string.info)
         for (user in users)
-            info = info + "\n\n" + user.name + "\n" + user.email + "\n" + user.genre + "\n" + user.hobbies + "\n" + user.city + "\n" + user.fechaNacimiento
+            info = info + "\n\n"+ getString(R.string.name) + ": " + user.name + "\nEmail: " + user.email + "\n" + getString(R.string.genre) + user.genre + "\n" + getString(R.string.hobbies) + user.hobbies + "\n" + getString(R.string.city) + user.city + "\n" + getString(R.string.date_of_bird) + user.fechaNacimiento + "\n-------------------"
         mainBinding.infoTextView.text = info
     }
 }

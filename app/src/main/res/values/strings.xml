@@ -1,12 +1,11 @@
 <resources>
-    <string name="app_name">Practica_1</string>
-    <string name="form">Formulario</string>
+    <string name="app_name">Formulario de registro</string>
     <string name="required_field">* Campo requerido</string>
     <string name="email">Correo electrónico</string>
     <string name="password">Contraseña</string>
     <string name="rep_password">Repita la contraseña</string>
     <string name="save">GUARDAR</string>
-    <string name="info">Información del usuario:</string>
+    <string name="info">Información de los usuarios:</string>
     <string name="password_error">Las contraseñas no coinciden</string>
     <string name="data_error">Faltan campos por rellenar</string>
     <string name="genre">Género:</string>

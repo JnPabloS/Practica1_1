@@ -11,20 +11,10 @@
         android:padding="16dp"
         tools:context=".MainActivity">
 
-        <TextView
-            android:id="@+id/title_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/form"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/name_text_input_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             app:helperText="@string/required_field">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -184,7 +174,7 @@
                 android:id="@+id/date_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableStart="@android:drawable/ic_menu_today"
+                android:drawableStart="@android:drawable/ic_menu_my_calendar"
                 android:focusable="false"
                 android:hint="@string/pick_date" />
         </com.google.android.material.textfield.TextInputLayout>
