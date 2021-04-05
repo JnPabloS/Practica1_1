@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var mainBinding: ActivityMainBinding
     private var users: MutableList<User> = mutableListOf()
-
+    //Comentario de prueba
     private var fechaNacimiento: String = ""
     private var cal = Calendar.getInstance()
 
